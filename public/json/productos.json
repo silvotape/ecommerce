@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "idCategoria" : 3,
+        "nombre": "Pantalon",
+        "marca": "Levis",
+        "modelo": "Skinni",
+        "precio": 1000,
+        "stock": 2,
+        "img": "jean_nino.png"
+
+    },
+
+    {
+        "id": 2,
+        "idCategoria" : 2,
+        "nombre": "Remera",
+        "marca": "Levis",
+        "modelo": "Negra",
+        "precio": 1200,
+        "stock": 3,
+        "img": "remera_hombre.png"
+
+    },
+
+    {
+        "id": 3,
+        "idCategoria" : 3,
+        "nombre": "Remera",
+        "marca": "GAP",
+        "modelo": "Strech",
+        "precio": 900,
+        "stock": 2,
+        "img": "remera_niño.png"
+
+    },
+
+    {
+        "id": 4,
+        "idCategoria" : 1,
+        "nombre": "Remera",
+        "marca": "GAP",
+        "modelo": "Rosa",
+        "precio": 2000,
+        "stock": 2,
+        "img": "remera_rosa.png"
+
+    },
+
+    {
+        "id": 5,
+        "idCategoria" : 2,
+        "nombre": "Short",
+        "marca": "Levis",
+        "modelo": "Beige",
+        "precio": 800,
+        "stock": 2,
+        "img": "short_hombre.png"
+
+    },
+
+    {
+        "id": 6,
+        "idCategoria" : 1,
+        "nombre": "Vestido",
+        "marca": "47 Street",
+        "modelo": "Rosa",
+        "precio": 1200,
+        "stock": 2,
+        "img": "vestido_rosa.png"
+
+    }
+
+]

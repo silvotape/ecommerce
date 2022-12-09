@@ -1,3 +1,14 @@
 .titulo{
     background-color: aquamarine;
 }
+
+.cardProducto{
+    width: 18rem;
+    margin: 4px;
+}
+
+.cardProductos{
+    margin: 4px;
+    align-items: center;
+    justify-content: center;
+}

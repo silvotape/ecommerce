@@ -5,14 +5,16 @@
 
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import 'react-toastify/dist/ReactToastify.css'
+import { ToastContainer } from 'react-toastify';
 
 
 //COMPONENTES
 import Navbar from './Nabvar/Navbar';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
-import ItemCount from './ItemCount/ItemCount';
 import Cart from './Cart/Cart';
+import Checkout from './Checkout/Checkout';
 
 const App = () => {
   
@@ -25,7 +27,9 @@ const App = () => {
           <Route path='product/:id' element={<ItemDetailContainer/>}/>
           <Route path='/category/:category' element={<ItemListContainer/>}/>
           <Route path='/Cart' element={<Cart/>}/>
+          <Route path='/Checkout' element={<Checkout/>}/>
         </Routes>
+        <ToastContainer/>
       </BrowserRouter>
     </>
       

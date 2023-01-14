@@ -7,7 +7,8 @@
         "modelo": "Skinni",
         "precio": 1000,
         "stock": 2,
-        "img": "jean_nino.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/mandala-db.appspot.com/o/jean_nino.png?alt=media&token=27f41c8c-1ac6-437b-b1f1-a91a2e5a4d75"
+       
 
     },
 
@@ -19,7 +20,8 @@
         "modelo": "Negra",
         "precio": 1200,
         "stock": 3,
-        "img": "remera_hombre.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/mandala-db.appspot.com/o/remera_hombre.png?alt=media&token=c00f266b-4a46-4e6d-b8af-9eab8582c1a4"
+        
 
     },
 
@@ -31,7 +33,8 @@
         "modelo": "Strech",
         "precio": 900,
         "stock": 2,
-        "img": "remera_niño.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/mandala-db.appspot.com/o/remera_nin%CC%83o.png?alt=media&token=e2054884-fddf-4143-a72e-c3b3017b2a0d"
+        
 
     },
 
@@ -43,7 +46,8 @@
         "modelo": "Rosa",
         "precio": 2000,
         "stock": 2,
-        "img": "remera_rosa.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/mandala-db.appspot.com/o/remera_rosa.png?alt=media&token=35619e45-1250-41c7-86cb-f0dfa35a5d69"
+    
 
     },
 
@@ -55,8 +59,8 @@
         "modelo": "Beige",
         "precio": 800,
         "stock": 2,
-        "img": "short_hombre.png"
-
+        "img": "https://firebasestorage.googleapis.com/v0/b/mandala-db.appspot.com/o/short_hombre.png?alt=media&token=e03b15af-8303-43a6-9e17-c4cf10135080"
+        
     },
 
     {
@@ -67,8 +71,8 @@
         "modelo": "Rosa",
         "precio": 1200,
         "stock": 2,
-        "img": "vestido_rosa.png"
-
+        "img": "https://firebasestorage.googleapis.com/v0/b/mandala-db.appspot.com/o/vestido_rosa.png?alt=media&token=626f5430-df7d-47d8-b65f-d5eaee4d76d3"
+       
     }
 
 ]

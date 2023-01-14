@@ -1,3 +1,5 @@
+
+
 .titulo{
     background-color: aquamarine;
 }
@@ -5,10 +7,129 @@
 .cardProducto{
     width: 18rem;
     margin: 4px;
+    
 }
 
 .cardProductos{
     margin: 4px;
     align-items: center;
     justify-content: center;
+    
+} 
+
+.logo{
+    width: 100px;
+    height: auto;
+
 }
+
+.bg-beigh{
+    background-color: #F0DFC8;
+    
+}
+
+.menu{
+    color:#795833;
+    font-family: 'Mulish', sans-serif;
+}
+
+.alerta{
+    color:red;
+}
+
+
+  
+  button[type=submit] {
+    width: 20%;
+    background-color: deeppink;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  form div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+ 
+  form {
+    display:flex;
+    align-items:  center;
+    flex-direction: column;
+    margin:10px;
+  }
+  
+  
+.link{
+    text-decoration: none;
+    color:darkslateblue;
+}
+
+.button-collapse{
+    color:darkslateblue;
+}
+
+
+.button-56 {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #fee6e3;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+  
+  
+  

@@ -1,19 +1,25 @@
 import {useState} from 'react';
 
-const ItemCount = ({stock,initial,onAdd}) => {
-    const [contador,setContador] = useState(1)
+//VOY SUMANDO O RESTANDO CANTIDAD DE ITEMS SEGUN EL STOCK DEL PRODUCTO, CUANDO HAGO "CLICK" EN EL BOTON DE
+//SUMAR O RESTAR. USO USESTATE PARA GUARDAME SU ESTADO. COMIENZO CON 1 PORQUE NO PUEDO TENER 0 PRODUCTO
+
+const ItemCount = ({stock,inicial,onAdd}) => {
+    const [contador,setContador] = useState(inicial)
     
     const sumar = () => contador < stock && setContador(contador+1)
         
 
     const restar = () => contador > 1 && setContador (contador-1)
 
+    const agregarAlCarrito = () => onAdd (contador)
+
+
     return (
         <div>
-            <button className="btn btn-dark" onClick={() => sumar()}>+</button>
-            <p>{contador}</p>
             <button className="btn btn-dark" onClick={() => restar()}>-</button>
-            <button className="btn btn-light">Agregar al carrito</button>
+            {contador}
+            <button className="btn btn-dark" onClick={() => sumar()}>+</button>
+            <button className="btn cartWidget" onClick={agregarAlCarrito}><i className="fas fa-cart-plus"></i></button>
         </div>
     );
 }
